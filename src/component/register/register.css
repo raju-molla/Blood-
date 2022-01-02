@@ -1,0 +1,37 @@
+.register {
+  background-color: rgb(138, 138, 138);
+  height: auto;
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > input {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  align-items: flex-end;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.btnSubmit {
+  border: none;
+  background-color: teal;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 20px;
+}
